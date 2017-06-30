@@ -1,0 +1,29 @@
+{
+  "name": "webapp",
+  "authors": [
+    "ZKeLin <2312677078@qq.com>"
+  ],
+  "description": "angularjs webapp",
+  "main": "",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.2",
+    "angular-validation": "^1.4.3",
+    "angular-cookie": "^4.1.0",
+    "angular-cookies": "^1.6.3"
+  },
+  "devDependencies": {
+    "angular-ui-router": "ui-router#^0.4.2"
+  }
+}

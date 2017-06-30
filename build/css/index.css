@@ -1,0 +1,436 @@
+.header {
+  background-color: #12d5b5;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+}
+.header .text {
+  padding: 0 7px;
+  color: #fff;
+}
+.header .custom {
+  margin-top: 0.26666667rem;
+  margin-right: 0.26666667rem;
+  padding-left: 0.26666667rem;
+  padding-right: 0.26666667rem;
+  border-color: #feae11;
+  color: #fff;
+  border-style: dashed;
+  background-color: #feae11;
+}
+.headerBar {
+  background: #12d5b5;
+  text-align: center;
+}
+.headerBar span {
+  left: 0;
+  line-height: 1.06666667rem;
+  font-size: 0.53333333rem;
+}
+.headerBar .back-btn {
+  width: 1.06666667rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.f-r {
+  float: right;
+}
+.f-l {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.ta-l {
+  text-align: left;
+}
+.ta-r {
+  text-align: right;
+}
+.ta-c {
+  text-align: center;
+}
+.c-w {
+  color: #fff;
+}
+.p-r {
+  position: relative;
+}
+.p-a {
+  position: absolute;
+}
+.p-f {
+  position: fixed;
+}
+.bg-w {
+  background: #fff;
+}
+.clearFix {
+  display: block;
+}
+.clearFix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.footer {
+  border-top: 1px solid gray;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  font-size: 0;
+}
+.footer li {
+  display: inline-block;
+  height: 1.06666667rem;
+  width: 33%;
+  font-size: 20px;
+}
+.footer li.select {
+  background: #dbf9f4;
+}
+.footer li.select span {
+  color: #01c2a3;
+}
+.footer li span {
+  line-height: 1.06666667rem;
+  color: #9f9e9d;
+}
+.contentList {
+  background: #fff;
+}
+.contentList .list {
+  border-bottom: 1px solid #eee;
+  padding: 7px 5px;
+  list-style: none;
+}
+.contentList .list img {
+  height: 1.73333333rem;
+  width: 1.73333333rem;
+  margin-right: 13px;
+}
+.bottom-btn {
+  background-color: #12d5b5;
+  width: 100%;
+  height: 1.06666667rem;
+  font-size: 0.53333333rem;
+  color: #fff;
+  bottom: 3px;
+}
+.positionInfo {
+  padding: 20px 10px 20px 10px;
+  border-bottom: 1px solid #ccc;
+}
+.positionInfo p {
+  margin-top: 10px;
+}
+.positionInfo .s-info {
+  margin-left: 20px;
+}
+.positionInfo .fs-r {
+  color: red;
+}
+.positionInfo img {
+  right: 20px;
+  top: 35px;
+}
+.position-info {
+  background: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.position-info img {
+  margin-left: 10px;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.position-info p {
+  margin-left: 80px;
+  padding-top: 5px;
+}
+.infoIntroTitle {
+  margin-top: 10px;
+  font-size: 0.53333333rem;
+  background: #fff;
+  padding: 10px;
+}
+.infoIntroContent {
+  background: #fff;
+  padding: 15px;
+  margin-top: 3px;
+  font-size: 0.4rem;
+  font-family: "微软雅黑";
+}
+.salary {
+  right: 20px;
+  top: 20px;
+}
+.companyInfo {
+  padding-top: 10px;
+}
+.companyInfo p {
+  padding: 5px 10px;
+}
+.positionClass {
+  background: #fff;
+  padding-bottom: 15px;
+}
+.positionClass h5 {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 0.53333333rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.positionClass button {
+  margin-top: 30px;
+  font-size: 0.53333333rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  width: 20%;
+  margin-left: 20px;
+  border-radius: 20px;
+  background: #def8f5;
+  color: #000;
+  margin-bottom: 10px;
+}
+.positionClass ul {
+  margin-top: 10px;
+}
+.positionClass .btn-active {
+  background: #12d5b5;
+  color: #fff;
+}
+.search-bar {
+  background: #12d5b5;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.search-bar button {
+  background: #12d5b5;
+  font-size: 0.53333333rem;
+}
+.search-bar button:first-child {
+  color: #FFF;
+}
+.search-bar button:last-child {
+  color: #000;
+}
+.search-bar input {
+  height: 20px;
+}
+.tap {
+  background: #EEE;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 40px;
+}
+.tap li {
+  list-style: none;
+  text-align: center;
+  float: left;
+  height: 1.06666667rem;
+  width: 33.3%;
+  line-height: 1.06666667rem;
+  border-bottom: 2px solid gray;
+}
+.tap li.active {
+  border-bottom: 2px solid #12d5b5;
+}
+.fill {
+  height: 2.13333333rem;
+}
+.sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+.sheet .wrap {
+  position: fixed;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  z-index: 99;
+}
+.sheet .wrap li,
+.sheet .wrap button {
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  background: #f1f2f3;
+  width: 100%;
+  text-align: center;
+  color: #e063e0;
+}
+.sheet .wrap ul {
+  overflow: hidden;
+  border-radius: 8px;
+  max-height: 400px;
+  overflow: scroll;
+}
+.sheet .wrap button {
+  margin-top: 8px;
+}
+.login {
+  background-image: url(../image/background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.login .formLogin {
+  margin-top: 260px;
+  text-align: center;
+}
+.login .formLogin input {
+  font-size: 16px;
+  margin-top: 10px;
+  width: 8rem;
+  height: 1.06666667rem;
+  margin: 0 auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.login .formLogin input::-webkit-input-placeholder {
+  color: #fff;
+}
+.login .formLogin .Lbtn {
+  width: 8rem;
+  height: 1.06666667rem;
+}
+.login .formLogin .Lbtn.login-btn {
+  background: #12d5b5;
+  color: #fff;
+  margin-top: 30px;
+}
+.login .formLogin .Lbtn.register-btn {
+  margin-top: 10px;
+}
+.me {
+  text-align: center;
+}
+.me .loginBtn {
+  background-color: #12d5b5;
+  margin-top: 1.33333333rem;
+  width: 8rem;
+  height: 1.06666667rem;
+  font-size: 0.48rem;
+  color: #fff;
+}
+.me .touxiang {
+  margin-top: 2.13333333rem;
+  text-align: center;
+}
+.me .toudibtn {
+  margin-top: 20px;
+  font-size: 0.42666667rem;
+  color: #fff;
+  background-color: #12d5b5;
+  width: 4rem;
+  height: 2.66666667rem;
+}
+.me .zhuxiaoBtn {
+  background-color: red;
+  margin-top: 0.53333333rem;
+  width: 8rem;
+  height: 1.06666667rem;
+  font-size: 0.48rem;
+  color: #fff;
+}
+.formLogin span {
+  padding: 0;
+  margin: 0;
+}
+.formLogin .validation-invalid {
+  padding: 0;
+  margin: 0;
+  color: red;
+}
+.formLogin .validaBox {
+  margin-top: 10px;
+  height: 1.06666667rem;
+}
+.formLogin .validaBox input.validaInput {
+  width: 4rem;
+  margin-top: -10px;
+}
+.formLogin .validaBox .validaBtn {
+  width: 2.66666667rem;
+  height: 0.93333333rem;
+}
+.star-icon {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+}
+.star-icon.star {
+  background-image: url(../image/star.png);
+  background-size: 100% 100%;
+  top: 10px;
+  right: 10px;
+}
+.star-icon.star-active {
+  background-image: url(../image/star-active.png);
+  background-size: 100% 100%;
+  top: 10px;
+  right: 10px;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  background: #eee;
+  width: 100%;
+  height: 100%;
+  font-size: 0.42666667rem;
+}
+button {
+  border-width: 0;
+}
+button:focus {
+  outline: 0;
+}

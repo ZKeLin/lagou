@@ -1,0 +1,12 @@
+<div class="contentList">
+	<ul>
+		<li ui-sref="position({id:list.id})" class="p-r list clearFix" ng-repeat="list in data|filterByObj:filterObj">
+			<img class="f-l" ng-src="{{list.imageUrl}}" alt="">
+			<h3 class="title" ng-bind="list.job"></h3>
+			<p class="text" ng-bind="list.companyName + '['+list.cityName+']' + list.industryName">
+			</p>
+			<span ng-if="name" class="star-icon {{list.select?'star-active':'star'}}" ng-click="$event.stopPropagation();select(list)"></span>
+			<p class="text" ng-bind="list.date"></p>
+		</li>
+	</ul>
+</div>

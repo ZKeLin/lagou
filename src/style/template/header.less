@@ -1,0 +1,36 @@
+@import '../variable.less';
+
+.header{
+	background-color: @headBgColor;
+	.h(40);
+	.lh(40);
+	.text{
+		padding: 0 7px;
+		color: @defaultColor;
+	}
+	.custom{
+		.mt(10);
+		.mr(10);
+		.pl(10);
+		.pr(10);
+		border-color: @warnColor;
+		color: @defaultColor;
+		border-style: dashed;
+		background-color: @warnColor;
+	}
+}
+.headerBar{
+	background: @headBgColor;
+	text-align: center;
+	
+	span{
+		left: 0;
+		.lh(40);
+		.fs(20);
+	}
+	.back-btn{
+		.w(40);
+		text-align: center;
+		.fs(30);
+	}
+}

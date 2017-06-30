@@ -1,0 +1,10 @@
+<div class="search-bar">
+	<button ng-click="name='';search();">取消</button>
+	<input ng-model="name" type="text">
+	<button ng-click="search();">搜索</button>
+</div>
+<div app-tab tab-click="tClick(id,name);" list="tabList"></div>
+<div class="fill"></div>
+<div app-content-list filter-obj="filterObj" data='lists'></div>
+<div app-footer></div>
+<div app-sheet visible="sheet.visible" list="sheet.list" select="sClick(id,name)"></div>

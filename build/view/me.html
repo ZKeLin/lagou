@@ -1,0 +1,15 @@
+<div class="me">
+	<div ng-if="name">
+		<div class="touxiang">
+			<img ng-src="{{image}}" alt="">
+			<p ng-bind="name"></p>
+		</div>
+		<button class="toudibtn" ui-sref="post">投递</button>
+		<button class="toudibtn" ui-sref="favorite">收藏</button><br>
+		<button class="zhuxiaoBtn" ng-click="logout()">退出登陆</button>
+	</div>
+	<div ng-hide="name">
+		<button class="loginBtn" ui-sref="login">去登陆</button>
+	</div>
+</div>
+<div app-footer></div>

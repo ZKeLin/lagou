@@ -1,0 +1,39 @@
+.login{
+	background-image: url(../image/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	.formLogin{
+		margin-top: 260px;
+		text-align: center;
+		input{
+			font-size: 16px;
+			margin-top: 10px;
+			.w(300);
+			.h(40);
+			margin: 0 auto;
+			color: #fff;
+			background-color: rgba(0,0,0,.2);
+			&::-webkit-input-placeholder{
+				color: #fff;
+			}
+		}
+		.Lbtn{
+			&.login-btn{
+				background: @headBgColor;
+				color: #fff;
+				margin-top: 30px;
+			}
+			&.register-btn{
+				margin-top: 10px;
+			}
+			.w(300);
+			.h(40);
+		}
+		
+	}
+}

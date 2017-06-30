@@ -1,0 +1,16 @@
+<div class="login">
+	<form action="" name="form">
+		<div class="formLogin p-r">
+			<input ng-model="user.phone" validator="phone"  type="text" placeholder="请输入11位手机号"><br>
+			<input ng-model="user.password" validator="password" type="password" placeholder="输入六位以上密码">
+			<div class="validaBox">
+				<input validator="required" ng-model="user.code" class="validaInput" type="text" placeholder="输入验证码"> 
+				<span ng-click="time?1==1:send()" class="validaBtn" ng-bind="time?time:'发送短信'"></span>
+			</div>
+			
+			<button class="Lbtn login-btn">登录</button>
+			<button class="Lbtn register-btn" validation-submit="form" ng-click="submit()">注册</button>
+		</div>
+	</form>
+	
+</div>

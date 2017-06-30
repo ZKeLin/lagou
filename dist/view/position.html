@@ -1,0 +1,7 @@
+<div app-header-bar text="'职位详情'"></div>
+<div app-position-info pos="position" is-login="isLogin"></div>
+<div app-company com="company"></div>
+<h5 class="infoIntroTitle">职位描述</h5>
+<pre class="infoIntroContent"  ng-bind="position.description">
+</pre>
+<button class="bottom-btn p-f" ng-click="post()" ng-bind="name?'投个简历':'去登陆'"></button>
